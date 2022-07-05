@@ -4,7 +4,7 @@ function getParameters() {
   var productId=searchParams.get("product");
   var url="intent://theinqr.com/?product="+productId+"#Intent;scheme=tta;package=com.tta.qr;end";
   window.location.replace(url);
-  setTimeout(hideLoading, 1000);
+  setTimeout(hideLoading, 500);
 }
 
 function hideLoading(){
