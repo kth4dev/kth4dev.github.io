@@ -6,8 +6,7 @@ function getParameters() {
   setTimeout(hideLoading, 500);
 }
 
-function hideLoading(){
-  var element = document.getElementById("page_loader");
-  element.style.display = "none";
+function goToPlayStore(){
+    window.location.replace("https://play.google.com/store/apps/details?id=com.github.android");
 }
 
