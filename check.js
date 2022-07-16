@@ -3,7 +3,7 @@ function getParameters() {
   var productId=searchParams.get("product");
   var url="intent://theinqr.com/?product="+productId+"#Intent;scheme=tta;end";
   window.location.replace(url);
-  setTimeout(hideLoading, 500);
+  setTimeout(goToPlayStore, 500);
 }
 
 function goToPlayStore(){
