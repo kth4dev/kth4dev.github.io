@@ -7,6 +7,6 @@ function getParameters() {
 }
 
 function goToPlayStore(){
-    window.location.replace("https://play.google.com/store/apps/details?id=com.github.android");
+    window.location.replace("https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.github.android");
 }
 
